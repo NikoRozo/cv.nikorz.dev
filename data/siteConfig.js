@@ -7,8 +7,8 @@ module.exports = {
   twitterUsername: 'NikoRozoArch',
   githubUsername: 'NikoRozo',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Arquitcto Empresarial de Software con experiencia en el análisis (<strong>Funcional, Técnico y Design Thinking</strong>), 
-     diseño y desarrollo de arquitecturas escalables, resiliente y alta disponibilidad, manejo de quipos basado en metodologías 
+  authorDescription: `Arquitecto Empresarial de Software con experiencia en el análisis (<strong>Funcional, Técnico y Design Thinking</strong>), 
+     diseño y desarrollo de arquitecturas escalables, resiliente y alta disponibilidad, manejo de equipos basado en metodologías 
      agiles (<strong>SCRUM</strong>) y de modelación (<strong>RUP, ArchiMate</strong>). Con habilidades adquiridas durante el trascurso de los proyectos 
      implementados, con dominio intermedio en arquitecturas SOA/Microservicios (<strong>JAVA, C#, Net Core, Node.js y PHP</strong>), 
      manejo de bases de datos relacionales (<strong>SQL Server, MondoDB, Redis, PostgreSQL, MySQL y Oracle</strong>), lenguajes de base de datos 
@@ -133,12 +133,12 @@ module.exports = {
       },
       duration: '3 años',
       occupation: "Developer Analyst Senior/Líder Técnico",
-      description: "Responsable definir los lineamientos y el diseño de las soluciones de los requerimiento trabajados en la fabrica. Encargado del análisis de requerimientos y el desarrollo de los mismo, mediante el usos de las herramientas del cliente (PL/SQL, Informatica, Batch, Crystal, BPM)."
+      description: "Responsable definir los lineamientos y el diseño de las soluciones de los requerimientos trabajados en la fábrica. Encargado del análisis de requerimientos y el desarrollo de los mismos, mediante el usos de las herramientas del cliente (PL/SQL, Informatica, Batch, Crystal, BPM)."
     }, 
     {
       company: "SCOSDA S.A.S",
       begin: {
-        month: 'agu',
+        month: 'ago',
         year: '2013'
       },
       duration: '3 meses',
