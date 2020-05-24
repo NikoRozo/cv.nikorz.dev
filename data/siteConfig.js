@@ -111,7 +111,7 @@ module.exports = {
       },
       duration: '4 años',
       occupation: "Team Lead/Coordinador de Fabrica",
-      description: "Responsable definir los lineamientos de arquitectura empresarial y el diseño de las soluciones de los proyectos del cliente. Encargado de planificar, gestionar y monitorear cada una de las actividades realizadas por el equipo de Desarrollo y de Calidad. Responsable de orientar el análisis de requerimientos de las necesidades del negocio, y así alinear el sistema con sus necesidades futuras."
+      description: "Responsable de definir los lineamientos de arquitectura empresarial y el diseño de las soluciones de los proyectos del cliente. Encargado de planificar, gestionar y monitorear cada una de las actividades realizadas por el equipo de Desarrollo y de Calidad. Responsable de orientar el análisis de requerimientos de las necesidades del negocio y así alinear el sistema con sus necesidades futuras."
   
     },  
     {
