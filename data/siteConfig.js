@@ -1,11 +1,11 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Nicolás E. Rozo Espinosa!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Francisco Santos',
   twitterUsername: '_franciscodf',
   githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: 'https://s3-us-east-2.amazonaws.com/nikorz-blog/2020/05/Perfil-sin-fondo-2.png',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
@@ -106,7 +106,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/nikorz-icon.png',
   headerLinks: [
     {
       label: 'Home',
