@@ -1,110 +1,179 @@
 module.exports = {
-  siteTitle: 'Nicolás E. Rozo Espinosa!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: 'https://s3-us-east-2.amazonaws.com/nikorz-blog/2020/05/Perfil-sin-fondo-2.png',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  siteTitle: 'Arquitecto Empresarial De Software',
+  subsiteTitle: 'Nicolás E. Rozo Espinosa',
+  siteDescription: `Hoja de Vida - Nicolás Rozo`,
+  keyWords: ['aws', 'nodejs', 'java', 'angular', 'docker', 'architecture', 'arquitecto', 'ingeniero', 'curriculum'],
+  authorName: 'Nicolás E. Rozo Espinosa',
+  twitterUsername: 'NikoRozoArch',
+  githubUsername: 'NikoRozo',
+  authorAvatar: '/images/avatar.jpg',
+  authorDescription: `Arquitcto Empresarial de Software con experiencia en el análisis (<strong>Funcional, Técnico y Design Thinking</strong>), 
+     diseño y desarrollo de arquitecturas escalables, resiliente y alta disponibilidad, manejo de quipos basado en metodologías 
+     agiles (<strong>SCRUM</strong>) y de modelación (<strong>RUP, ArchiMate</strong>). Con habilidades adquiridas durante el trascurso de los proyectos 
+     implementados, con dominio intermedio en arquitecturas SOA/Microservicios (<strong>JAVA, C#, Net Core, Node.js y PHP</strong>), 
+     manejo de bases de datos relacionales (<strong>SQL Server, MondoDB, Redis, PostgreSQL, MySQL y Oracle</strong>), lenguajes de base de datos 
+     (<strong>PL/SQL y Transact SQL</strong>), nociones en proyectos de arquitectura de inteligencia de negocios (desarrollo e implementación de 
+     <strong>ETL</strong> en la herramienta Informática Power Center) y reportes dinámicos (<strong>BO y Crystal Report</strong>).<br /><br />
+     Tengo facilidad de aprendizaje y adaptación en los diferentes entornos laborales, caracterizándome como una persona seria, 
+     responsable, emprendedora, interdisciplinaria, trabajo en equipo y bajo presión, con experiencia de manejo de personal y 
+     gestión operativo de Proyectos de <strong>Arquitectura/Desarrollo</strong>.<br /><br />
+     Me apasionan los retos ya que esto fortalecen los conocimientos adquiridos y el cómo nos dirigimos en el día a día. Soy una 
+     persona autodidacta por naturaleza, muy minucioso y comprometido.`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Java/Spring Cloud',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'Amazon Web Service',
       level: 60
     },
     {
-      name: 'Javascript',
-      level: 50
+      name: 'Google Cloud Platform',
+      level: 60
     },
     {
-      name: 'NodeJs',
+      name: 'JavascriptNodeJs/Angular',
+      level: 55
+    },
+    {
+      name: 'Git/TFS/Subservcion',
+      level: 70
+    },
+    {
+      name: '.Net Core',
       level: 40
     },
     {
-      name: 'React',
-      level: 60
+      name: 'PL/SQL',
+      level: 80
     },
     {
-      name: 'Git',
+      name: 'Informatica Power Center',
+      level: 80
+    },
+    {
+      name: 'Arquitectura SOA',
+      level: 50
+    },
+    {
+      name: 'Arquitectura Microservicios',
       level: 70
+    },
+    {
+      name: 'Arquitectura API',
+      level: 65
+    },
+    {
+      name: 'Scrum/SAFe',
+      level: 55
+    },
+    {
+      name: 'DB NOSQL MonfoDB, FireStore, Redis',
+      level: 65
+    },
+    {
+      name: 'BPM - Lombardi, Bonita, Bizagi, Oracle',
+      level: 45
+    },
+    {
+      name: 'Manejo de Equipos/Cliente',
+      level: 75
+    },
+    {
+      name: 'Togaf',
+      level: 55
+    },
+    {
+      name: 'Ingles',
+      level: 50
     },
     /* more skills here */
   ],
   jobs: [
     /* more portifolio items here */
     {
-      company: "Gympass",
+      company: "CONTACT & BUSINESS IT",
+      begin: {
+        month: 'may',
+        year: '2020'
+      },
+      duration: null,
+      occupation: "Arquitecto de Soluciones",
+      description: "Arquitecto líder en la implementación de transformación Digital sobre el cliente"
+  
+    }, 
+    {
+      company: "Accenture",
       begin: {
         month: 'sep',
-        year: '2019'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      duration: '4 años',
+      occupation: "Team Lead/Coordinador de Fabrica",
+      description: "Responsable definir los lineamientos de arquitectura empresarial y el diseño de las soluciones de los proyectos del cliente. Encargado de planificar, gestionar y monitorear cada una de las actividades realizadas por el equipo de Desarrollo y de Calidad. Responsable de orientar el análisis de requerimientos de las necesidades del negocio, y así alinear el sistema con sus necesidades futuras."
+  
+    },  
+    {
+      company: "CONTACT & BUSINESS IT",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'jun',
+        year: '2016'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '3 meses',
+      occupation: "Desarrollador Senior Java/PL-SQL",
+      description: "Responsable de realizar el análisis, diseño y desarrollo de los requerimientos solicitados por el usuario utilizando tecnologías y herramientas como PL/SQL, Shell Unix, JavaScript, JAVA SE/EE (EJB, JSF, PrimeFaces, etc)"
+  
+    }, 
+    {
+      company: "Accenture",
+      begin: {
+        month: 'dec',
+        year: '2013'
+      },
+      duration: '3 años',
+      occupation: "Developer Analyst Senior/Líder Técnico",
+      description: "Responsable definir los lineamientos y el diseño de las soluciones de los requerimiento trabajados en la fabrica. Encargado del análisis de requerimientos y el desarrollo de los mismo, mediante el usos de las herramientas del cliente (PL/SQL, Informatica, Batch, Crystal, BPM)."
+    }, 
+    {
+      company: "SCOSDA S.A.S",
+      begin: {
+        month: 'agu',
+        year: '2013'
+      },
+      duration: '3 meses',
+      occupation: "Análista .Net ASP",
+      description: "Responsable del análisis y el desarrollo de soluciones a la medida en .NET C# y en el framework DevExpress, para emisoras radiales (Olímpica Esterito y Radiopolis) y empresas de seguridad (G4S y Toronto de Colombia)."
   
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/iot.jpg",
+      description: "Internet Of Think",
+      url: "https://github.com/NikoRozo/iotverse"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/services.jpg",
+      description: "Arquitectura de Microservicios",
+      url: "https://github.com/NikoRozo/Microservices-SB"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/NikoRozoArch",
+    facebook: "https://www.facebook.com/NikoRz-104620944605700",
+    linkedin: "https://www.linkedin.com/in/niko-rozo",
+    github: "https://github.com/NikoRozo",
+    platzi: "https://platzi.com/@NikoRozo92",
+    email: "nikorz.blog@outlook.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://nikorz.dev',
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
-  theme_color: '#25303B',
+  background_color: '#5a7590',
+  theme_color: '#00fe16',
   display: 'minimal-ui',
   icon: 'src/assets/nikorz-icon.png',
   headerLinks: [

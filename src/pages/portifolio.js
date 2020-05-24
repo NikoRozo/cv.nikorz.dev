@@ -30,7 +30,7 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Portafolio"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -40,7 +40,7 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpg')}
+        heroImg={withPrefix('/images/cover.jpeg')}
         title={title}
       />
 

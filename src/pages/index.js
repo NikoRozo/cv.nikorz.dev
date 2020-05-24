@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaChalkboardTeacher } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 
@@ -27,17 +27,19 @@ class Home extends React.Component {
     }
 
     const title = siteConfig.siteTitle
+    const subtitle = siteConfig.subsiteTitle
     const {keywords} = siteConfig
     return (
       <Layout location={this.props.location}>
         <SEO
-          title={title}
+          title={title - subtitle}
           keywords={keywords}
         />
 
         <Hero
           heroImg={siteConfig.siteCover}
           title={title}
+          subtitle={subtitle}
         />
 
         <Wrapper className={this.props.className} >
@@ -46,7 +48,7 @@ class Home extends React.Component {
               <Col xs={4} className='avatar'>
                 <img
                   className='avatar__image'
-                  src={withPrefix('/images/avatar.jpeg')}
+                  src={withPrefix('/images/avatar.jpg')}
                   alt='user avatar'
                 />
                 <div className="social">
@@ -59,8 +61,11 @@ class Home extends React.Component {
                   {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                     <FaTwitter className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
-                    <FaEnvelope className="social-icon" size="32" />
+                  {siteConfig.social.facebook && <a className="social-link facebook" href={siteConfig.social.facebook}>
+                    <FaFacebook className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.platzi && <a className="social-link email" href={siteConfig.social.platzi}>
+                    <FaChalkboardTeacher className="social-icon" size="32" />
                   </a>}
                 </div>
               </Col>

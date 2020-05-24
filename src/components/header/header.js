@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
-import { FaGithub } from "react-icons/fa"
 import siteConfig from '../../../data/siteConfig'
 import { withPrefix } from "gatsby"
 
@@ -13,7 +12,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: #25303B;
+  background-color: #000000;
 `
 
 const HeaderNav = styled.nav`
@@ -27,7 +26,7 @@ const HeaderNav = styled.nav`
   justify-content: space-between;
   overflow-x: auto;
   overflow-y: hidden;
-  background-color: #25303B;
+  background-color: #000000;
 `
 
 const HeaderLinkGroup = styled.div`
@@ -56,11 +55,10 @@ const HeaderLink = styled(Link)`
 const GithubLink = styled(({ className }) => (
   <a 
     className={className}
-    href={`https://github.com/${siteConfig.githubUsername}`}
-    target='_blank'
+    href={`https://nikorz.dev`}
     rel="noopener noreferrer"
   >
-    <FaGithub size={32} />
+    <img className="site-nav-icon" src="https://s3-us-east-2.amazonaws.com/nikorz-blog/2020/05/Logo.png" alt="NikoRz.Dev" />
   </a>
 ))`
   position: relative;

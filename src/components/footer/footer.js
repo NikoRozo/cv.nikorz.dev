@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaChalkboardTeacher } from "react-icons/fa"
 import { config } from 'react-awesome-styled-grid';
 import siteConfig from '../../../data/siteConfig'
 
@@ -11,7 +11,7 @@ const Link = styled(({ className, icon: Icon, ...props }) => (
     rel="noopener noreferrer"
     {...props}
   >
-    <Icon color="#25303B" size={32} />
+    <Icon color="#ffffff" size={32} />
   </a>
 ))`
   & + & {
@@ -24,6 +24,8 @@ const Footer = ({ className }) => {
     twitter,
     linkedin,
     github,
+    facebook,
+    platzi
   } = siteConfig.social
   return (
     <footer className={className}>
@@ -31,7 +33,9 @@ const Footer = ({ className }) => {
       <div>
         {github && <Link href={github} icon={FaGithub} />}
         {twitter && <Link href={twitter} icon={FaTwitter} />}
+        {facebook && <Link href={facebook} icon={FaFacebook} />}
         {linkedin && <Link href={linkedin} icon={FaLinkedin} />}
+        {platzi && <Link href={platzi} icon={FaChalkboardTeacher} />}
       </div>
     </footer>
   )
@@ -46,6 +50,7 @@ export default styled(Footer)`
   max-width: calc(960px + 48px);
   margin: 0 auto;
   padding: 0 24px;
+  color: white;
 
   ${props => config(props).media.sm`
     flex-direction: row;

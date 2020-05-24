@@ -16,14 +16,15 @@ SkillBar.displaName = 'SkillBar'
 
 export default styled(SkillBar)`
   width: 100%;
+  margin: 0 .2em 1em 0;
   .skill__bar {
     width: 100%;
     height: 10px;
-    background-color: lightgrey;
+    background-color: lightgray;
     padding: 1px;
   }
   .skill__level {
-    background-color: #25303B;
+    background-color: #03c42a;
     width: ${p => p.level || 0}%;
     height: 8px;
   }

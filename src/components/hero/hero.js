@@ -24,11 +24,18 @@ const HeroTitle = styled.h1`
   color: #fff;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
 `
-
-const Hero = ({ className, title }) => (
+const HeroSubTitle = styled.h2`
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 10px 60px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+`
+const Hero = ({ className, title, subtitle }) => (
   <HeroContainer className={className}>
     <TitleContainer>
       <HeroTitle>{title}</HeroTitle>
+      <HeroSubTitle>{subtitle}</HeroSubTitle>
     </TitleContainer>
   </HeroContainer>
 )
