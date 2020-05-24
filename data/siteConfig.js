@@ -178,11 +178,11 @@ module.exports = {
   icon: 'src/assets/nikorz-icon.png',
   headerLinks: [
     {
-      label: 'Home',
+      label: 'Perfil',
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portafolio',
       url: '/portifolio',
     }
   ]

@@ -52,19 +52,19 @@ class Home extends React.Component {
                   alt='user avatar'
                 />
                 <div className="social">
-                  {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
+                  {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} rel="noopener noreferrer" target="_blank">
                     <FaGithub className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
+                  {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} rel="noopener noreferrer" target="_blank">
                     <FaLinkedin className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
+                  {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} rel="noopener noreferrer" target="_blank">
                     <FaTwitter className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.facebook && <a className="social-link facebook" href={siteConfig.social.facebook}>
+                  {siteConfig.social.facebook && <a className="social-link facebook" href={siteConfig.social.facebook} rel="noopener noreferrer" target="_blank">
                     <FaFacebook className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.platzi && <a className="social-link email" href={siteConfig.social.platzi}>
+                  {siteConfig.social.platzi && <a className="social-link email" href={siteConfig.social.platzi} rel="noopener noreferrer" target="_blank">
                     <FaChalkboardTeacher className="social-icon" size="32" />
                   </a>}
                 </div>

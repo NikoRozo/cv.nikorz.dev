@@ -52,7 +52,7 @@ const HeaderLink = styled(Link)`
     border-bottom: 2px solid #fff;
   `}
 `
-const GithubLink = styled(({ className }) => (
+const NikoRzLink = styled(({ className }) => (
   <a 
     className={className}
     href={`https://nikorz.dev`}
@@ -81,6 +81,7 @@ const Header = ({ location }) => {
     <HeaderWrapper>
       <HeaderNav>
         <HeaderLinkGroup>
+          <NikoRzLink/>
           {headerLinks.map((headerLink, i) => (
             <HeaderLink
               active={location.pathname === withPrefix(headerLink.url)}
@@ -91,7 +92,6 @@ const Header = ({ location }) => {
             </HeaderLink>
           ))}
         </HeaderLinkGroup>
-        <GithubLink />
       </HeaderNav>
     </HeaderWrapper>
   )
