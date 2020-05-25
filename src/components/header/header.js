@@ -89,15 +89,14 @@ display: flex;
 align-items: center;
 color: #fff;
 border: 0;
-margin: 0;
+margin: auto;
 margin-right: 0.5rem;
 padding-left: 20px;
 padding-right: 20px;
 min-width: 42px;
 z-index: 10;
-${({ active }) => active && css`
-  border-bottom: 2px solid #fff;
-`}
+border: rgb(14, 223, 14) 1px solid;
+border-radius: 0.6rem;
 `
 
 const Header = ({ location }) => {
@@ -117,8 +116,8 @@ const Header = ({ location }) => {
               {headerLink.label}
             </HeaderLink>
           ))}
-          <HomeLink/>
         </HeaderLinkGroup>
+        <HomeLink/>
       </HeaderNav>
     </HeaderWrapper>
   )
