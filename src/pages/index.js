@@ -32,7 +32,7 @@ class Home extends React.Component {
     return (
       <Layout location={this.props.location}>
         <SEO
-          title={title}
+          title={"Perfil"}
           keywords={keywords}
         />
 
