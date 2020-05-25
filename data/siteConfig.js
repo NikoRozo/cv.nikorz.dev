@@ -143,7 +143,7 @@ module.exports = {
       },
       duration: '3 meses',
       occupation: "Análista .Net ASP",
-      description: "Responsable del análisis y el desarrollo de soluciones a la medida en .NET C# y en el framework DevExpress, para emisoras radiales (Olímpica Esterito y Radiopolis) y empresas de seguridad (G4S y Toronto de Colombia)."
+      description: "Responsable del análisis y el desarrollo de soluciones a la medida en .NET C# y en el framework DevExpress, para emisoras radiales (Olímpica Esterio y Radiopolis) y empresas de seguridad (G4S y Toronto de Colombia)."
   
     },
   ],
