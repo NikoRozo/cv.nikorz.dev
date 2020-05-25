@@ -73,6 +73,32 @@ const NikoRzLink = styled(({ className }) => (
   min-width: 42px;
   z-index: 10;
 `
+const HomeLink = styled(({ className }) => (
+  <a 
+    className={className}
+    href={`https://nikorz.dev`}
+    rel="noopener noreferrer"
+  >
+    Blog
+  </a>
+))`
+position: relative;
+box-sizing: border-box;
+text-decoration: none;
+display: flex;
+align-items: center;
+color: #fff;
+border: 0;
+margin: 0;
+margin-right: 0.5rem;
+padding-left: 20px;
+padding-right: 20px;
+min-width: 42px;
+z-index: 10;
+${({ active }) => active && css`
+  border-bottom: 2px solid #fff;
+`}
+`
 
 const Header = ({ location }) => {
   const { headerLinks } = siteConfig
@@ -91,6 +117,7 @@ const Header = ({ location }) => {
               {headerLink.label}
             </HeaderLink>
           ))}
+          <HomeLink/>
         </HeaderLinkGroup>
       </HeaderNav>
     </HeaderWrapper>
