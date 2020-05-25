@@ -171,7 +171,7 @@ module.exports = {
   siteUrl: 'https://nikorz.dev',
   pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'UA-167582792-2',
   background_color: '#5a7590',
   theme_color: '#00fe16',
   display: 'minimal-ui',
