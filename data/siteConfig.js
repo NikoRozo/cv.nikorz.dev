@@ -166,7 +166,7 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/niko-rozo",
     github: "https://github.com/NikoRozo",
     platzi: "https://platzi.com/@NikoRozo92",
-    email: "nikorz.blog@outlook.com"
+    email: "mailto:nicolas.rozo@nikorz.dev"
   },
   siteUrl: 'https://nikorz.dev',
   pathPrefix: '/', // Note: it must *not* have a trailing slash.

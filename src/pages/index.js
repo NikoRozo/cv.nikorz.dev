@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaChalkboardTeacher } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaChalkboardTeacher, FaEnvelope } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 
@@ -57,6 +57,9 @@ class Home extends React.Component {
                   </a>}
                   {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} rel="noopener noreferrer" target="_blank">
                     <FaLinkedin className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.email && <a className="social-link email" href={siteConfig.social.email} rel="noopener noreferrer" target="_blank">
+                    <FaEnvelope className="social-icon" size="32" />
                   </a>}
                   {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} rel="noopener noreferrer" target="_blank">
                     <FaTwitter className="social-icon" size="32" />
